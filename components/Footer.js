@@ -15,6 +15,15 @@ export default function Footer() {
             <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer" className="hover:text-paper">
               Telegram
             </a>
+            <a href={contact.tiktok} target="_blank" rel="noopener noreferrer" className="hover:text-paper">
+              TikTok
+            </a>
+            <a href={contact.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-paper">
+              Instagram
+            </a>
+            <a href={contact.youtube} target="_blank" rel="noopener noreferrer" className="hover:text-paper">
+              YouTube
+            </a>
             <a href={`mailto:${contact.email}`} className="hover:text-paper">
               Email
             </a>
